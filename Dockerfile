@@ -1,5 +1,4 @@
 FROM ubuntu:20.04
-RUN sudo su
 RUN apt-get update 
 RUN apt-get install tomcat9 default-jdk maven git -y
 RUN cd
