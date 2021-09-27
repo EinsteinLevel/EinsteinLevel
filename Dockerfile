@@ -7,6 +7,7 @@ RUN mkdir /tomcat
 RUN cd /tomcat
 RUN ls -la
 RUN git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+RUN ls -la
 RUN cd boxfuse-sample-java-war-hello/
 RUN pwd
 RUN cd /tomcat/boxfuse-sample-java-war-hello
